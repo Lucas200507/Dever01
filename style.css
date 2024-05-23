@@ -12,11 +12,12 @@ body{
 
 
 #logo{
-    width: 250px;
+    width: 300px;
     height: 250px;
 }
 
 .navegador {
+    height: 150px;
     background-color: black;
     width: auto;
     margin: auto;
@@ -24,40 +25,46 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    /* border: solid  red; */
+       
 }
-
 ul {
-   align-items: center;
-    /* margin-right: auto; */
     display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 50%;
     justify-content: space-between;
     gap: 30px;
-    justify-content: center;
-     border: solid 1px red;  
 }
-
 li {
-    display: flex;
-    height: 30px;
-    justify-content: center;
+    text-align: center;
+    height: 50px;
     list-style: none;
-    background-color: rgb(128, 128, 128);
-    width: 100px;
-    border: solid 0;
+    background-color: transparent;
+    width: 150px;
+    justify-content: center;
+
+    
+
+    border: solid 4px white;
     border-radius: 10%;
 }
 
 li:hover{
     background: rgba(128, 128, 128, 0.322);
-    height: 35px;
-    width: 105px;
+    height: 50px;
+    width: 150px;
+    
 }
 
 li a {
-    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    font-size: 20px;
+    color: #ffffff;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 .navegador ul li {
@@ -94,3 +101,5 @@ li a {
     font-size: 70px;
     margin-top: 80px;
 }
+
+
