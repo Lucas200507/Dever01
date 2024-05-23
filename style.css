@@ -1,0 +1,96 @@
+* {
+    gap: 0;
+    /* display: inline; */
+}
+
+body{
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#logo{
+    width: 250px;
+    height: 250px;
+}
+
+.navegador {
+    background-color: black;
+    width: auto;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul {
+   align-items: center;
+    /* margin-right: auto; */
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    justify-content: center;
+     border: solid 1px red;  
+}
+
+li {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(128, 128, 128);
+    width: 100px;
+    border: solid 0;
+    border-radius: 10%;
+}
+
+li:hover{
+    background: rgba(128, 128, 128, 0.322);
+    height: 35px;
+    width: 105px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navegador ul li {
+    color: white;
+}
+
+.navegador ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: rgba(19, 201, 233, 0.623);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5px;
+}
+
+.navegador ul li:hover ::after{
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    
+
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
