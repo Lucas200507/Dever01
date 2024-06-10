@@ -128,17 +128,22 @@ li a {
 }
 
 .content h1 {
-    font-size: 90px;
+    font-size: 110px;
     margin-top: 80px;
+
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 #Veja_mais {
-    margin-top: 15px;
-    padding: 10px;
-    font-size:50px;
-    border-radius: 40px;
-    background-color: #ffffff38;
+    margin-top: 45px;
+    padding: 20px;
+    font-size:70px;
+    border-radius: 60px;
+    background-color: #ffffff5e;
     color: rgb(0, 0, 0);
+    text-decoration: none;
 
     transition: all 0.5s;
 }
@@ -155,31 +160,53 @@ li a {
 }
 
 h3{
-    font-size: 60px;
+    font-size: 90px;
     color: white;
     padding: 30px;
+
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 #catalogo{
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
-
 }
 
 .catalogo{
     background-color: rgba(43, 43, 44, 0.589);
     border-radius: 50px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
     border: none;
-    margin: 30px;
+    margin: 90px;
     color: white;
-    font-size: 30px;
+    
     text-align: justify;
+    transition: 0.2s all;
+}
+
+.catalogo:hover {
+    background-color: rgba(250, 250, 250, 0.151);
 }
 
 #titulo{
     text-align: center;
-    font-size: 35px;
+    font-size: 70px;
+    
+}
+
+.link_catalogo{
+    text-decoration: none;
+    color: white;
+
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    
 }
