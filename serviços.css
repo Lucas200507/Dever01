@@ -1,0 +1,92 @@
+#logo{
+    object-fit: contain;
+    height: 80%;
+    width: 80%;
+    margin: 20px;
+ }
+ 
+ .navegador {
+     height: 230px;
+     background-color: black;
+     width: auto;
+     margin: auto;
+     padding: 35px 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+      
+        
+ }
+ 
+ ul {
+     display: flex;
+     position: absolute;
+     right: 0%;
+     margin-right: 110px;
+     justify-content: space-between;
+     gap: 30px;
+     /* border: solid 1px red; */
+ }
+ li {
+     position: relative;
+     display: flex;
+     align-items: center;
+    
+     height: 40%;
+     list-style: none;
+     background-color: transparent;
+     width: 200px;
+     justify-content: center;
+ 
+     
+ 
+     border: solid 2px white;
+     border-radius: 10%;
+ }
+ 
+ .linha{
+     margin-top: 10px;
+     width: 0;
+     height: 5px;
+     top: 99%;
+     left: 0;
+     position: absolute;
+     transition: 0.8s all;
+ }
+ 
+ li:hover .linha{
+     width: 100%;
+     top: 99%;
+     left: 0;
+     background: yellow;
+ }
+ 
+ li:hover{
+     background: rgba(128, 128, 128, 0.322);
+     height: 40%;
+     width: 200px;
+     border: none;
+     
+ }
+ 
+ li a {
+     
+     justify-content: center;
+     padding: 12px;
+     font-size: 30px;
+     color: #ffffff;
+     text-decoration: none;
+     font-family: "Source Sans 3", sans-serif;
+ }
+
+ #texto {
+    text-align: center;
+    background-color: gray;
+    border-radius: 40px;
+ }
+
+ #texto p{
+    margin: 60px;
+    color: black;
+    font-size: 30px;
+ }

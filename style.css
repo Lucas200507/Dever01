@@ -13,20 +13,15 @@
     height: 100vh;
 }
 
-#caixa-logo{
-    width: 300px;
-    height: 300px;
-    padding-left: 25px;
-}
-
 #logo{
    object-fit: contain;
-   width: 100%;
-   height: 100%;
+   height: 80%;
+   width: 80%;
+   margin: 20px;
 }
 
 .navegador {
-    height: 150px;
+    height: 230px;
     background-color: black;
     width: auto;
     margin: auto;
@@ -34,26 +29,28 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-     /* border: solid  red;  */
+     
        
 }
+
 ul {
     display: flex;
     position: absolute;
-    flex-direction: row;
-    left: 50%;
+    right: 0%;
+    margin-right: 110px;
     justify-content: space-between;
     gap: 30px;
+    /* border: solid 1px red; */
 }
 li {
     position: relative;
     display: flex;
     align-items: center;
    
-    height: 40px;
+    height: 40%;
     list-style: none;
     background-color: transparent;
-    width: 150px;
+    width: 200px;
     justify-content: center;
 
     
@@ -81,8 +78,8 @@ li:hover .linha{
 
 li:hover{
     background: rgba(128, 128, 128, 0.322);
-    height: 45px;
-    width: 155px;
+    height: 40%;
+    width: 200px;
     border: none;
     
 }
@@ -91,7 +88,7 @@ li a {
     
     justify-content: center;
     padding: 12px;
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff;
     text-decoration: none;
     font-family: "Source Sans 3", sans-serif;
@@ -112,9 +109,7 @@ li a {
     transition: 0.5px;
 }
 
-.navegador ul li:hover ::after{
-    width: 100%;
-}
+
 
 .content {
     position: absolute;
@@ -155,7 +150,7 @@ li a {
 
 /* catálogo */
 #fundo2{
-    background-image: url(26174.webp);
+    background-color: rgba(0, 0, 0, 0.87);
     text-align: center;
 }
 
