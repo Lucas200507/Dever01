@@ -15,8 +15,8 @@
 
 #logo{
    object-fit: contain;
-   height: 80%;
-   width: 80%;
+   height: 60%;
+   width: 60%;
    margin: 20px;
 }
 
@@ -88,7 +88,7 @@ li a {
     
     justify-content: center;
     padding: 12px;
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     font-family: "Source Sans 3", sans-serif;
@@ -123,7 +123,7 @@ li a {
 }
 
 .content h1 {
-    font-size: 110px;
+    font-size: 70px;
     margin-top: 80px;
 
     font-family: "Work Sans", sans-serif;
@@ -134,7 +134,7 @@ li a {
 #Veja_mais {
     margin-top: 45px;
     padding: 20px;
-    font-size:70px;
+    font-size:40px;
     border-radius: 60px;
     background-color: #ffffff5e;
     color: rgb(0, 0, 0);
@@ -155,7 +155,7 @@ li a {
 }
 
 h3{
-    font-size: 90px;
+    font-size: 70px;
     color: white;
     padding: 30px;
 
@@ -192,7 +192,7 @@ h3{
 
 #titulo{
     text-align: center;
-    font-size: 70px;
+    font-size: 30px;
     
 }
 
